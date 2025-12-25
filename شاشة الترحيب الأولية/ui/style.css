@@ -1,0 +1,48 @@
+body {
+    margin: 0; padding: 0;
+    width: 100vw; height: 100vh;
+    display: flex; justify-content: center; align-items: center;
+    overflow: hidden;
+    font-family: 'Tajawal', sans-serif;
+    background: rgba(0, 0, 0, 0.5); /* تعتيم خلفية اللعبة */
+}
+
+.glass-panel {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 40px;
+    width: 500px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+}
+
+.logo { width: 120px; margin-bottom: 20px; }
+
+.server-name { color: #ff9900; font-weight: bold; }
+
+.player-info { margin: 20px 0; font-size: 1.2rem; }
+
+.rules-section {
+    text-align: right;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.start-btn {
+    background: #ff9900;
+    border: none;
+    padding: 12px 40px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start-btn:hover { background: #cc7a00; transform: scale(1.05); }
